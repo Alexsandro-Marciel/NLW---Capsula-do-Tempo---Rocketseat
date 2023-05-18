@@ -14,6 +14,14 @@
     font-family: 'Roboto', sans-serif;
   }
 
+  .memory {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-decoration: none;
+    margin-bottom: 64px;
+  }
+
   .memory small {
     color: #BEBEBF;
     font-size: 12px;
@@ -23,6 +31,8 @@
   .memory h1 {
     font-size: 32px;
     font-weight: 700;
+    color: #EAEAEA;
+
   }
 
   .memory img {
@@ -30,6 +40,7 @@
     height: 280px;
     object-fit: cover;
     border-radius: 8px;
+
   }
 
   .memory p {
