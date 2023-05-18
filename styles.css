@@ -32,7 +32,6 @@
     font-size: 32px;
     font-weight: 700;
     color: #EAEAEA;
-
   }
 
   .memory img {
@@ -40,7 +39,6 @@
     height: 280px;
     object-fit: cover;
     border-radius: 8px;
-
   }
 
   .memory p {
