@@ -4,14 +4,20 @@
     box-sizing: border-box;
   }
 
-  nav {
-    padding: 64px;
-  }
-
   body {
+
     background-color: #121215;
     color: #EAEAEA;
     font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-areas: "profile timeline";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100vh;
+  }
+
+  nav {
+    padding: 64px;
+    grid-area: timeline;
   }
 
   .memory {
@@ -45,4 +51,8 @@
     font-size: 18px;
     color: #BEBEBF;
     line-height: 29px;
+  }
+
+  aside {
+    grid-area: profile;
   }
